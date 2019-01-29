@@ -23,6 +23,8 @@ description: This is a short description of my page
 * [MAIN]honeypot.k636174.net
 * [SophosXG]
 
+<div style="page-break-before:always"></div>
+
 ## バックアップサーバ
 ---
 #### 仮想マシン設定情報
@@ -58,7 +60,7 @@ description: This is a short description of my page
 * rsyslog
 
 
-#### DAILY_BACKUP_SCRIPT
+#### DAILY_BACKUP_SCRIPT.sh
 ```
 #!/bin/bash
 
