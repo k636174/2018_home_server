@@ -12,7 +12,7 @@ description: This is a short description of my page
 # 仮想マシン
 ---
 ## 仮想マシン一覧
-* [MAIN]monkey2018.k636174.net
+* [[MAIN]monkey2018.k636174.net](0310_105_zabbix)
 * [[MAIN]glanz.k737184.net](#バックアップサーバ)
 * [MAIN]ansible.k636174.net
 * [MAIN]blog.k636174.net

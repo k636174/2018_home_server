@@ -12,3 +12,4 @@
 * [仮想マシン一覧](0310_NocixDC/index.md#仮想マシン一覧)
 * [仮想マシン](0310_NocixDC/index.md#仮想マシン)
  * [バックアップサーバ](0310_NocixDC/index.md#バックアップサーバ)
+ * [監視サーバ(Zabbix)](0310_NocixDC/0310_105_zabbix.md)
