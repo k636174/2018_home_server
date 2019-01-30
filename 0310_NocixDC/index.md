@@ -49,8 +49,8 @@ description: This is a short description of my page
 | 実行日時（間隔） | 実行するコマンド                                                |
 | ---------------- | --------------------------------------------------------------- |
 | \* \* \* \* \*   | php /var/www/mf_reporter/artisan schedule:run >> /dev/null 2>&1 |
-| \* \* 30 \* \*   | /root/scripts/sar_k636174_net_certbot.sh                        |
-| 30 0 \* \* \* |  /root/scripts/DAILY_BACKUP_SCRIPT.sh|
+| \* \* 1 \* \*    | /root/scripts/MONTHLY_CERTBOT.sh                                |
+| 30 0 \* \* \*    | /root/scripts/DAILY_BACKUP_SCRIPT.sh                            |
 
 #### 稼働サービス
 * SSH
@@ -59,6 +59,9 @@ description: This is a short description of my page
 * ZabbixAgent
 * rsyslog
 
+#### MONTHLY_CERTBOT.sh
+
+[include](../0900_codes/0901_shell_scripts/MONTHLY_CERTBOT.sh)
 
 #### DAILY_BACKUP_SCRIPT.sh
 
