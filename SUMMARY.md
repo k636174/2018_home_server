@@ -2,9 +2,12 @@
 
 * [Introduction](readme.md)
 
+### 設計概要
+* [監視設計概要](0310_NocixDC/0310_105_zabbix.md#監視設計概要)
+* [SophosXGバックアップ概要](0210_SophosXG/index.md#バックアップ概要)
+
 ### ネットワーク環境
 * [SophosXG](0210_SophosXG/index.md)
-  * [SophosXGバックアップ概要](0210_SophosXG/index.md#バックアップ概要)
   * [バックアップ構成設定値](0210_SophosXG/index.md#バックアップ構成設定値)
 
 ### 専用サーバ契約情報(Nocix)
