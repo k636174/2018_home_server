@@ -2,17 +2,19 @@
 
 * [Introduction](readme.md)
 
-### 設計概要
+## 設計概要
 * [監視設計概要](0310_NocixDC/0310_105_zabbix.md#監視設計概要)
+* [ファイルホスティングサービス](0310_NocixDC/0310_102_nextcloud.md#ファイルホスティングサービス設計概要)
 * [SophosXGバックアップ概要](0210_SophosXG/index.md#バックアップ概要)
 
-### ネットワーク環境
+## ネットワーク環境
 * [SophosXG](0210_SophosXG/index.md)
-  * [バックアップ構成設定値](0210_SophosXG/index.md#バックアップ構成設定値)
+    * [バックアップ構成設定値](0210_SophosXG/index.md#バックアップ構成設定値)
 
-### 専用サーバ契約情報(Nocix)
+## 専用サーバ契約情報(Nocix)
 * [仮想基盤](0310_NocixDC/index.md#仮想基盤)
 * [仮想マシン一覧](0310_NocixDC/index.md#仮想マシン一覧)
 * [仮想マシン](0310_NocixDC/index.md#仮想マシン)
- * [バックアップサーバ](0310_NocixDC/index.md#バックアップサーバ)
- * [監視サーバ(Zabbix)](0310_NocixDC/0310_105_zabbix.md)
+    * [バックアップサーバ](0310_NocixDC/index.md#バックアップサーバ)
+    * [監視サーバ(Zabbix)](0310_NocixDC/0310_105_zabbix.md)
+
