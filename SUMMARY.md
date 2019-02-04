@@ -3,6 +3,7 @@
 * [Introduction](readme.md)
 
 ## 設計概要
+* [プライベートシステム概要](0110_PrivateSystem/index.md)
 * [監視設計概要](0310_NocixDC/0310_105_zabbix.md#監視設計概要)
 * [オンラインストレージ設計概要](0310_NocixDC/0310_102_nextcloud.md#オンラインストレージ設計概要)
 * [SophosXGバックアップ概要](0210_SophosXG/index.md#バックアップ概要)
@@ -20,3 +21,4 @@
 
 ## ノートパソコン情報
 * [持ち運び用ノートパソコン](0610_notebook/0611_052_rabbit2018.md)
+
