@@ -6,6 +6,7 @@
 * [プライベートシステム概要](0110_PrivateSystem/index.md)
 * [監視設計概要](0310_NocixDC/0310_105_zabbix.md#監視設計概要)
 * [オンラインストレージ設計概要](0310_NocixDC/0310_102_nextcloud.md#オンラインストレージ設計概要)
+* [拠点間VPN設計概要](0210_SophosXG/0210_SiteToSiteVPN.md)
 * [SophosXGバックアップ概要](0210_SophosXG/index.md#バックアップ概要)
 
 ## ネットワーク環境
