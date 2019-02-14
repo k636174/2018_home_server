@@ -13,6 +13,6 @@ cd ../../
 git pull
 cd $DEST_DIR
 git add -A
-git commit -m "This push by crontab(`hostname`)" 
+git commit -m "This push by cron(`hostname`)" 
 git ../../
 git push
