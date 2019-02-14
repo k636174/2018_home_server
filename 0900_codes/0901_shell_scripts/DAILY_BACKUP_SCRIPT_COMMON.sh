@@ -19,7 +19,7 @@ else
 fi
 
 
-
+ls -alh $CRON_SOURCE_DIR
 
 mkdir -p $DEST_DIR/cron/
 cp -f $CRON_SOURCE_DIR* $DEST_DIR/cron/
