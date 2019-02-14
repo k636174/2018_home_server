@@ -1,9 +1,13 @@
 #!/bin/sh
 
-# Variable
-DEST_DIR=/root/Documents/0910_settings/`hostname`/
+# Change script directory
+SCRIPT_DIR=`dirname $0`
+cd $SCRIPT_DIR
 
-# COPY CRON 
+# Variable
+. ./CONFIG.txt
+
+# COPY CRON
 mkdir -p $DEST_DIR/cron/
 cp -f /var/spool/cron/* $DEST_DIR/cron/
 
@@ -13,6 +17,6 @@ cd ../../
 git pull
 cd $DEST_DIR
 git add -A
-git commit -m "This push by cron(`hostname`)" 
+git commit -m "This push by cron(`hostname`)"
 git ../../
 git push
