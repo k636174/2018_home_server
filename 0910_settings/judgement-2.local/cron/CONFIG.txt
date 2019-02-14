@@ -1,0 +1,1 @@
+DEST_DIR=/Users/k636174/Desktop/Projects/Documents/0910_settings/`hostname`/
