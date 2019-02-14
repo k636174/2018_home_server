@@ -5,7 +5,13 @@ SCRIPT_DIR=`dirname $0`
 cd $SCRIPT_DIR
 
 # Variable
-. ./CONFIG.txt
+if [ -e "./CONFIG.txt" ]; then
+  . ./CONFIG.txt
+else
+  cp ./CONFIG.txt.example ./CONFIG.txt
+  . ./CONFIG.txt
+fi
+
 
 # COPY CRON
 if [ -e "/var/spool/cron/" ]; then
