@@ -1,1 +1,1 @@
-DEST_DIR=/Users/k636174/Desktop/Projects/Documents/0910_settings/`hostname`
+DEST_DIR=/Users/ExampleUser/ExampleDIR/EXamplePro/Documents/0910_settings/`hostname`
