@@ -1,4 +1,4 @@
 * * * * * php /var/www/mf_reporter/artisan schedule:run >> /dev/null 2>&1 
 * * 1 * * /root/scripts/MONTHLY_CERTBOT.sh
 30 0 * * * /root/Documents/0900_codes/0901_shell_scripts/DAILY_BACKUP_SCRIPT.sh
-57 * * * * /root/Documents/0900_codes/0901_shell_scripts/DAILY_BACKUP_SCRIPT_COMMON.sh
+05 * * * * /root/Documents/0900_codes/0901_shell_scripts/DAILY_BACKUP_SCRIPT_COMMON.sh
