@@ -15,3 +15,6 @@ ps -ef > $SOURCE_DIR/server_status/`hostname`_`date +%Y%m%d_%H-%M-%S`.txt
 
 # SophosXG Config Backup
 find $SOURCE_DIR -type f -mmin -60 -exec scp '{}' $TARGET_USER@$TARGET_HOST:$DEST_DIR ';'
+
+# Delete Old Files
+ssh $TARGET_USER@$TARGET_HOST "find ${DEST_DIR} -mtime +180 -exec rm -f {} \;"
