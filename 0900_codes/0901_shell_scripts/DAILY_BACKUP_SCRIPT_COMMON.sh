@@ -28,6 +28,6 @@ git pull
 cd $DEST_DIR
 git add -n *
 git commit -m "This push by cron(`hostname`)"
-exit
 git ../../
+exit
 git push

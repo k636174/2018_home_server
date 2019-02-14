@@ -1,1 +1,0 @@
-DEST_DIR=/root/Documents/0910_settings/`hostname`
