@@ -17,6 +17,9 @@ fi
 if [ -e "/var/spool/cron/" ]; then
   #CentOS
   CRON_SOURCE_DIR=/var/spool/cron/
+elif [ -e "/var/spool/cron/crontabs/" ]; then
+  #Debian
+  CRON_SOURCE_DIR=/usr/lib/cron/tabs/
 elif [ -e "/usr/lib/cron/tabs/" ]; then
   #Mac
   CRON_SOURCE_DIR=/usr/lib/cron/tabs/
@@ -31,8 +34,4 @@ cp -f $CRON_SOURCE_DIR* $DEST_DIR/cron/
 cd $DEST_DIR
 cd ../../
 git pull
-cd $DEST_DIR
-git add -n *
-git commit -m "This push by cron(`hostname`)"
-git status
-git push
+cd $DEST_DIR;ls -alh;git add ./*;git commit -m "This push by cron(`hostname`)";git status
