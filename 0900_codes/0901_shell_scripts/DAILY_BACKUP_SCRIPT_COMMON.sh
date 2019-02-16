@@ -32,9 +32,6 @@ cp -f $CRON_SOURCE_DIR* $DEST_DIR/cron/
 
 # Git add&commit&push
 cd $DEST_DIR
-cd ../../
-git pull
-cd $DEST_DIR
 git add .
 git commit -m "This push by cron(`hostname`)"
 git push
