@@ -7,5 +7,5 @@ git clone https://github.com/k636174/dotfiles.git
 
 cd
 ln -s Projects/dotfiles ~/dotfiles
-ln -s ~/dotfiles/zsh/.zshrc .zshrc
+ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
  
