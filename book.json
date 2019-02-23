@@ -1,5 +1,10 @@
 {
   "plugins": [
     "include-codeblock"
-  ]
+    "ga"
+  ],
+  "pluginsConfig": {
+    "ga": {
+        "token": "UA-40809942-3"
+    }
 }
