@@ -5,3 +5,4 @@
 * * 1 * * /root/scripts/MONTHLY_CERTBOT.sh
 30 0 * * * /root/Documents/0900_codes/0901_shell_scripts/DAILY_BACKUP_SCRIPT.sh
 00 * * * * /root/Documents/0900_codes/0901_shell_scripts/DAILY_BACKUP_SCRIPT_COMMON.sh
+* * * * * cd /root/pcw-agent;./pcw-agent
