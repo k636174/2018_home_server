@@ -1,5 +1,5 @@
 * * * * * php /var/www/mf_reporter/artisan schedule:run >> /dev/null 2>&1 
-* * * * * php /var/www/pcw_manager/artisan schedule:run >> /dev/null 2>&1 
+* * * * * php /var/www/pcw_manager/artisan schedule:run
 
  
 * * 1 * * /root/scripts/MONTHLY_CERTBOT.sh
